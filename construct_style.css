@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bellefair&display=swap");
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: #f7d323; */
+background-image: url("assets/fond-ecran.png");
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+body header {
+  width: 100%;
+  margin: 0;
+  height: 50%;
+}
+body header .banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: url("assets/lordbrakko_A_group_of_smiling_people_walk_into_a_hangar_where_a_9402a3f7-5b89-4278-9449-26d61cdad225.png") no-repeat;
+  background-size: cover;
+  background-position: 25%;
+}
+body header .banner .banner_title {
+  width: 95%;
+  margin: 0;
+  font-size: 5vw;
+  opacity: 0.8;
+  margin-top: 100px;
+}
+body header .banner .title {
+  border: 1px solid black;
+  border-radius: 50px;
+  font-family: "Bebas Neue", cursive;
+  background-color: #ecdf85;
+  text-align: center;
+}
+body main {
+  height: 43%;
+  margin: 50px auto;
+}
+body main .inprogress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+body main .inprogress .child {
+  width: 320px;
+}
+body main .inprogress .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main .inprogress .text .links {
+  margin-bottom: 50px;
+}
+body main .inprogress .text .links img {
+  width: 200px;
+  margin: 20px 20px;
+}
+body main .inprogress .text h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3vw;
+}
+body footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecdf85;
+  height: 8%;
+}
+body footer p {
+  font-family: "Bellefair", serif;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 720px) {
+  body {
+    height: 100vh;
+  }
+  body main .inprogress .child {
+    width: 200px;
+  }
+  body main .inprogress .text .links img {
+    width: 60px;
+  }
+  body main .inprogress .text h2 {
+    font-size: 24px;
+  }
+  body footer {
+    height: 9%;
+  }
+}
+@media screen and (max-width: 820px) {
+  body {
+    height: 100vh;
+  }
+  body main .inprogress .child {
+    width: 200px;
+  }
+  body main .inprogress .text .links img {
+    width: 60px;
+  }
+  body main .inprogress .text h2 {
+    font-size: 24px;
+  }
+  body footer {
+    height: 9%;
+  }
+  body footer p {
+    font-family: "Bellefair", serif;
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=construct_style.css.map */
